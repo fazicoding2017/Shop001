@@ -1,0 +1,161 @@
+﻿@using HomeAccessories.Website.HtmlHelpers
+@model HomeAccessories.Website.ViewModels.ProductListViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<style>
+    .pull-right {
+  float: none !important;
+}
+</style>
+
+<div class="container main-container">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+
+            <!-- Categories -->
+            @{
+              Html.RenderAction("List", "Categories");
+            }
+
+
+            <!-- End Categories -->
+            <!-- Best Seller -->
+            <div class="col-lg-12 col-md-12 col-sm-6">
+                <div class="no-padding">
+                    <span class="title">BEST SELLER</span>
+                </div>
+                <div class="hero-feature">
+                    <div class="thumbnail text-center">
+
+                      
+                        <a href="@Url.Action("details", "Products", new { id = 3})" class="link-p">
+                            <img src="~/images/product-9.jpg" alt="">
+                        </a>
+                        <div class="caption prod-caption">
+                            <h4><a href="detail.html">Ohio State College T-Shirt</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, minima!</p>
+                            <p>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-default">$ 924.25</a>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Buy</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-feature hidden-sm">
+                    <div class="thumbnail text-center">
+                        <a href="detail.html" class="link-p">
+                            <img src="~/images/product-8.jpg" alt="">
+                        </a>
+                        <div class="caption prod-caption">
+                            <h4><a href="detail.html">Penn State College T-Shirt</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, minima!</p>
+                            <p>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-default">$ 528.96</a>
+                                    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Buy</a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Best Seller -->
+
+        </div>
+
+        <div class="clearfix visible-sm"></div>
+
+        <!-- Catalogue -->
+        <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="col-lg-12 col-sm-12">
+                <span class="title">PRODUCTS CATALOGUE</span>
+            </div>
+
+            @foreach (var product in Model.Products)
+            {
+            <div class="col-lg-4 col-sm-4 hero-feature text-center">
+                <div class="thumbnail">
+                    <a href="@Url.Action("details", "Products", new { id = product.ProductId})" class="link-p">
+                        <img src="~/images/product-2.jpg" alt="">
+                    </a>
+                    <div class="caption prod-caption">
+                        <h4><a href="@Url.Action("details", "Products", new { id = product.ProductId})">@product.ProductName</a></h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, minima!</p>
+                        <p>
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-default">$ @product.UnitPrice</a>
+                                <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Buy</a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            }
+           
+
+        </div>
+      
+        <div class="text-center">@Html.Pager(Model.PagingInfo)</div>
+
+        <!-- End Catalogue -->
+
+
+    </div>
+</div>
+
+
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.QuantityPerUnit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnitPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UnitsInStock)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Category.CategoryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.QuantityPerUnit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UnitsInStock)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProductId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProductId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProductId })
+        </td>
+    </tr>
+}
+
+</table>*@

@@ -1,0 +1,5 @@
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.Entities\bin\Release\HomeAccessories.Entities.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.Entities\bin\Release\HomeAccessories.Entities.pdb
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.Entities\obj\Release\HomeAccessories.Entities.csprojResolveAssemblyReference.cache
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.Entities\obj\Release\HomeAccessories.Entities.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.Entities\obj\Release\HomeAccessories.Entities.pdb

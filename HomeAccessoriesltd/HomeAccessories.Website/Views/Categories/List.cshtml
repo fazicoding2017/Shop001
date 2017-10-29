@@ -1,0 +1,19 @@
+﻿@model HomeAccessories.Website.ViewModels.CategoryListViewModel
+
+
+
+<div class="list-group">
+    <a class="list-group-item @(Model.CurrentCategory ==null?"active":String.Empty)" href="/Products/">All Products</a>
+    @foreach (var category in Model.Categories)
+    {
+    @Html.ActionLink(category.CategoryName, "Index",
+            new { controller = "Products", categoryId = category.Id },
+            new
+            {
+                @class =
+                Model.CurrentCategory != null && Model.CurrentCategory.ToString() == category.Id.ToString()
+                    ? "list-group-item active" : "list-group-item"
+            })
+    }
+</div>
+

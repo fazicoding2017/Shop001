@@ -1,0 +1,12 @@
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Release\HomeAccessories.DataAccess.dll.config
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Release\HomeAccessories.DataAccess.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Release\HomeAccessories.DataAccess.pdb
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Release\EntityFramework.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Release\HomeAccessories.Entities.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Release\HomeAccessories.Entities.pdb
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Release\EntityFramework.xml
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\obj\Release\HomeAccessories.DataAccess.csprojResolveAssemblyReference.cache
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\obj\Release\HomeAccessories.DataAccess.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\obj\Release\HomeAccessories.DataAccess.pdb

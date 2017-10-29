@@ -1,0 +1,15 @@
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\obj\Debug\HomeAccessories.DataAccess.csprojResolveAssemblyReference.cache
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Debug\HomeAccessories.DataAccess.dll.config
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Debug\HomeAccessories.DataAccess.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Debug\HomeAccessories.DataAccess.pdb
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Debug\EntityFramework.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Debug\HomeAccessories.Entities.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Debug\HomeAccessories.Entities.pdb
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Debug\EntityFramework.xml
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\obj\Debug\HomeAccessories.DataAccess.dll
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\obj\Debug\HomeAccessories.DataAccess.pdb
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\obj\Debug\HomeAccessories.DataAccess.Migrations.InitialCreate.resources
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\obj\Debug\HomeAccessories.DataAccess.csproj.GenerateResource.Cache
+C:\Faz\DATA\development files\HomeAccessoriesltd\HomeAccessoriesltd\HomeAccessories.DataAccess\obj\Debug\HomeAccessories.DataAccess.Migrations.AddingExtraDetails.resources
